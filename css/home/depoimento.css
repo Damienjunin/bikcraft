@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: var(--cor-p1);
+  overflow: hidden;
 }
 
 .depoimento img {
@@ -36,9 +37,8 @@
 
 .depoimento p::before {
   content: "“";
-
   left: -50px;
-  top: -30px;
+  top: -20px;
 }
 
 .depoimento p::after {
@@ -61,6 +61,6 @@
   }
   .depoimento-conteudo {
     padding: 40px 20px;
-    justify-self: center;
+    margin: auto;
   }
 }
